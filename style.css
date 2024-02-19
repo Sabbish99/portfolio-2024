@@ -1,97 +1,50 @@
-* {
-    margin: 0px;
-    padding: 0px;
+/* common share styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
-
-/* common color */
-.orange-color {
-    color: #FD6E0A;
+.text-orange {
+    color: rgb(244, 114, 0);
 }
 
-.btn {
-    padding: 18px 35px;
-    background-color: #FD6E0A;
-    border-radius: 5px;
-    border: none;
+.btn-primary {
     color: white;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.btn-2 {
-    padding: 18px 35px;
-    background-color: #FFF8F3;
+    background-color: rgb(247, 97, 42);
+    border: none;
     border-radius: 5px;
-    border: 2px solid #FD6E0A;
-    color: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
     font-weight: 700;
-    font-size: 20px;
-}
-
-.half-width {
-    width: 50%;
-    border: 2px solid red;
-    justify-content: space-around;
-
 }
 
 
 
-/* header part start */
-header {
-    background-color: #FFF8F3;
-    padding-top: 20px;
-    background-image: url(images/developer.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    margin-bottom: 20px;
-
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-nav {
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
 }
 
-.header-ul {
-    display: flex;
+nav li {
     list-style: none;
-    align-items: center;
-    gap: 50px;
-
+    margin-right: 50px;
 }
 
-.header-ul a {
+nav a {
     text-decoration: none;
-    color: black;
-    font-size: 20px;
-
+    color: #474747;
 }
-
-.header-second-nav {
-    display: flex;
-    justify-content: space-around;
-    margin: 100px 200px;
-    align-items: center;
-    border: 2px solid green;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-
-
-
-}
-
-.header-second-nav-info {
-    padding: 20px;
-    gap: 20px;
-}
-
-.header-btn {
-    margin-top: 20px;
-}
-
-/* header part end */
