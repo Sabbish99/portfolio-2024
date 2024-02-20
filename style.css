@@ -74,7 +74,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 700;
     color: #474747;
@@ -86,6 +86,8 @@ nav a {
 }
 
 
+
+
 /* about me section start*/
 
 .about-me {
@@ -95,9 +97,17 @@ nav a {
     background-color: rgb(255, 243, 243);
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 10px;
 
+}
+
+.details {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(232, 254, 255);
+    box-shadow: 0px 0px 15px 0px;
 }
 
 .about-me-details {
@@ -117,7 +127,7 @@ nav a {
 
 /* what i do sections starts */
 .what-i-do {
-    border: 3px solid red;
+
     margin: 100px 250px;
     padding: 100px;
     background-color: aliceblue;
@@ -136,9 +146,85 @@ nav a {
 
 .what-i-do-common-cover {
 
-    padding: 20px;
+    padding: 30px;
     background-color: rgb(250, 252, 241);
     border-radius: 10px;
     box-shadow: 1px 1px 10px;
 
+}
+
+.what-i-do p {
+    text-align: justify;
+    font-weight: 400;
+}
+
+
+/* resume detailss */
+.resume-header {
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(4, 4, 87);
+}
+
+.resume-info {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 255);
+    margin: 0px 250px 20px 250px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.education {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.experience {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(255, 255, 247);
+}
+
+.cv-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer start */
+
+.footer-section {
+    background-color: #FFF8F3;
+    padding: 100px 250px;
+    margin-top: 100px;
+
+
+}
+
+.footer-section-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.icon {
+    display: flex;
+    gap: 0px 20px;
+    color: rgb(253, 121, 73);
+    font-size: 30px;
+}
+
+
+
+.box-design {
+    width: 200px;
+    height: 30px;
+}
+
+.message-box-design {
+    width: 200px;
+    height: 120px;
 }
