@@ -1,4 +1,8 @@
 /* common share styles */
+* {
+    margin: 0px;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -159,7 +163,7 @@ nav a {
 }
 
 
-/* resume detailss */
+/* resume details */
 .resume-header {
     text-align: center;
     font-size: 1.3rem;
